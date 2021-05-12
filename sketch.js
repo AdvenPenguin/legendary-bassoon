@@ -66,7 +66,7 @@ function keyPressed() {
 		Matter.Body.translate(packageBody, translation) 
 	} 
 	else if (keyCode === DOWN_ARROW) {
-		Matter.Body.setStatic(packageBody,false); } }
+		Matter.Body.setStatic(packageBody,true); } }
 
 
 
